@@ -14,6 +14,11 @@
 		4AF69B7E2D6EC1C30032E406 /* NLP_Calendar_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF69B7D2D6EC1C30032E406 /* NLP_Calendar_AssistantTests.swift */; };
 		4AF69B882D6EC1C30032E406 /* NLP_Calendar_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF69B872D6EC1C30032E406 /* NLP_Calendar_AssistantUITests.swift */; };
 		4AF69B8A2D6EC1C30032E406 /* NLP_Calendar_AssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF69B892D6EC1C30032E406 /* NLP_Calendar_AssistantUITestsLaunchTests.swift */; };
+		4AF932962D797B1C0046FB63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF932942D797B1C0046FB63 /* GoogleService-Info.plist */; };
+		4AF932972D797B1C0046FB63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF932942D797B1C0046FB63 /* GoogleService-Info.plist */; };
+		4AF9329A2D797BBA0046FB63 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF932992D797BBA0046FB63 /* FirebaseAnalytics */; };
+		4AF9329C2D7980770046FB63 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF9329B2D7980770046FB63 /* FirebaseVertexAI */; };
+		4AF9329D2D7983CF0046FB63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF932942D797B1C0046FB63 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,7 @@
 		4AF69B832D6EC1C30032E406 /* NLP Calendar AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NLP Calendar AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF69B872D6EC1C30032E406 /* NLP_Calendar_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLP_Calendar_AssistantUITests.swift; sourceTree = "<group>"; };
 		4AF69B892D6EC1C30032E406 /* NLP_Calendar_AssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLP_Calendar_AssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AF932942D797B1C0046FB63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF9329A2D797BBA0046FB63 /* FirebaseAnalytics in Frameworks */,
+				4AF9329C2D7980770046FB63 /* FirebaseVertexAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +106,7 @@
 				4AF69B6B2D6EC1C20032E406 /* NLP_Calendar_AssistantApp.swift */,
 				4AF69B6D2D6EC1C20032E406 /* ContentView.swift */,
 				4AF69B6F2D6EC1C20032E406 /* Assets.xcassets */,
+				4AF932942D797B1C0046FB63 /* GoogleService-Info.plist */,
 				4AF69B742D6EC1C20032E406 /* NLP_Calendar_Assistant.entitlements */,
 				4AF69B712D6EC1C20032E406 /* Preview Content */,
 			);
@@ -145,6 +154,10 @@
 			dependencies = (
 			);
 			name = "NLP Calendar Assistant";
+			packageProductDependencies = (
+				4AF932992D797BBA0046FB63 /* FirebaseAnalytics */,
+				4AF9329B2D7980770046FB63 /* FirebaseVertexAI */,
+			);
 			productName = "NLP Calendar Assistant";
 			productReference = 4AF69B682D6EC1C20032E406 /* NLP Calendar Assistant.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 4AF69B5F2D6EC1C20032E406;
+			packageReferences = (
+				4AF932982D797BBA0046FB63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4AF69B692D6EC1C20032E406 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF9329D2D7983CF0046FB63 /* GoogleService-Info.plist in Resources */,
 				4AF69B732D6EC1C20032E406 /* Preview Assets.xcassets in Resources */,
 				4AF69B702D6EC1C20032E406 /* Assets.xcassets in Resources */,
 			);
@@ -242,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF932962D797B1C0046FB63 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF932972D797B1C0046FB63 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +600,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AF932982D797BBA0046FB63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AF932992D797BBA0046FB63 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AF932982D797BBA0046FB63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4AF9329B2D7980770046FB63 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AF932982D797BBA0046FB63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4AF69B602D6EC1C20032E406 /* Project object */;
 }
