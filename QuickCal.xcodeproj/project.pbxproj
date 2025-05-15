@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2195052DCC502000FED4CC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2195042DCC502000FED4CC /* FirebaseAuth */; };
+		4A2195072DCC66E900FED4CC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2195062DCC66E900FED4CC /* FirebaseFirestore */; };
+		4AB4D9792DBC9D0D005235AA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB4D9782DBC9D0D005235AA /* FirebaseStorage */; };
+		4AB4D97B2DBC9D0D005235AA /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB4D97A2DBC9D0D005235AA /* FirebaseVertexAI */; };
+		C7CF1AD62DD5B7A400FB7178 /* app.py in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1AD22DD5B7A400FB7178 /* app.py */; };
+		C7CF1AD72DD5B7A400FB7178 /* .python-version in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1AD12DD5B7A400FB7178 /* .python-version */; };
+		C7CF1AD82DD5B7A400FB7178 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1AD02DD5B7A400FB7178 /* .env */; };
+		C7CF1AD92DD5B7A400FB7178 /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1AD42DD5B7A400FB7178 /* requirements.txt */; };
+		C7CF1ADA2DD5B7A400FB7178 /* calquick-firebase-adminsdk-fbsvc-bd9eb73648.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1AD32DD5B7A400FB7178 /* calquick-firebase-adminsdk-fbsvc-bd9eb73648.json */; };
+		C7CF1ADC2DD5B7E200FB7178 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C7CF1ADB2DD5B7E200FB7178 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB4D95B2DBC9BB2005235AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4D9412DBC9BB1005235AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB4D9482DBC9BB1005235AA;
+			remoteInfo = QuickCal;
+		};
+		4AB4D9652DBC9BB2005235AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4D9412DBC9BB1005235AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB4D9482DBC9BB1005235AA;
+			remoteInfo = QuickCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB4D9492DBC9BB1005235AA /* QuickCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB4D95A2DBC9BB2005235AA /* QuickCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB4D9642DBC9BB2005235AA /* QuickCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CF1AD02DD5B7A400FB7178 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		C7CF1AD12DD5B7A400FB7178 /* .python-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".python-version"; sourceTree = "<group>"; };
+		C7CF1AD22DD5B7A400FB7178 /* app.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = app.py; sourceTree = "<group>"; };
+		C7CF1AD32DD5B7A400FB7178 /* calquick-firebase-adminsdk-fbsvc-bd9eb73648.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "calquick-firebase-adminsdk-fbsvc-bd9eb73648.json"; sourceTree = "<group>"; };
+		C7CF1AD42DD5B7A400FB7178 /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		C7CF1ADB2DD5B7E200FB7178 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4AB4D94B2DBC9BB1005235AA /* QuickCal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickCal;
+			sourceTree = "<group>";
+		};
+		4AB4D95D2DBC9BB2005235AA /* QuickCalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickCalTests;
+			sourceTree = "<group>";
+		};
+		4AB4D9672DBC9BB2005235AA /* QuickCalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuickCalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB4D9462DBC9BB1005235AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB4D9792DBC9D0D005235AA /* FirebaseStorage in Frameworks */,
+				4A2195072DCC66E900FED4CC /* FirebaseFirestore in Frameworks */,
+				4A2195052DCC502000FED4CC /* FirebaseAuth in Frameworks */,
+				4AB4D97B2DBC9D0D005235AA /* FirebaseVertexAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9572DBC9BB2005235AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9612DBC9BB2005235AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2195032DCC502000FED4CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB4D9402DBC9BB1005235AA = {
+			isa = PBXGroup;
+			children = (
+				C7CF1ADB2DD5B7E200FB7178 /* .gitignore */,
+				C7CF1AD52DD5B7A400FB7178 /* backend */,
+				4AB4D94B2DBC9BB1005235AA /* QuickCal */,
+				4AB4D95D2DBC9BB2005235AA /* QuickCalTests */,
+				4AB4D9672DBC9BB2005235AA /* QuickCalUITests */,
+				4A2195032DCC502000FED4CC /* Frameworks */,
+				4AB4D94A2DBC9BB1005235AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB4D94A2DBC9BB1005235AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4D9492DBC9BB1005235AA /* QuickCal.app */,
+				4AB4D95A2DBC9BB2005235AA /* QuickCalTests.xctest */,
+				4AB4D9642DBC9BB2005235AA /* QuickCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CF1AD52DD5B7A400FB7178 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				C7CF1AD02DD5B7A400FB7178 /* .env */,
+				C7CF1AD12DD5B7A400FB7178 /* .python-version */,
+				C7CF1AD22DD5B7A400FB7178 /* app.py */,
+				C7CF1AD32DD5B7A400FB7178 /* calquick-firebase-adminsdk-fbsvc-bd9eb73648.json */,
+				C7CF1AD42DD5B7A400FB7178 /* requirements.txt */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB4D9482DBC9BB1005235AA /* QuickCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB4D96E2DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCal" */;
+			buildPhases = (
+				4AB4D9452DBC9BB1005235AA /* Sources */,
+				4AB4D9462DBC9BB1005235AA /* Frameworks */,
+				4AB4D9472DBC9BB1005235AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4AB4D94B2DBC9BB1005235AA /* QuickCal */,
+			);
+			name = QuickCal;
+			packageProductDependencies = (
+				4AB4D9782DBC9D0D005235AA /* FirebaseStorage */,
+				4AB4D97A2DBC9D0D005235AA /* FirebaseVertexAI */,
+				4A2195042DCC502000FED4CC /* FirebaseAuth */,
+				4A2195062DCC66E900FED4CC /* FirebaseFirestore */,
+			);
+			productName = QuickCal;
+			productReference = 4AB4D9492DBC9BB1005235AA /* QuickCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB4D9592DBC9BB2005235AA /* QuickCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB4D9712DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCalTests" */;
+			buildPhases = (
+				4AB4D9562DBC9BB2005235AA /* Sources */,
+				4AB4D9572DBC9BB2005235AA /* Frameworks */,
+				4AB4D9582DBC9BB2005235AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB4D95C2DBC9BB2005235AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AB4D95D2DBC9BB2005235AA /* QuickCalTests */,
+			);
+			name = QuickCalTests;
+			packageProductDependencies = (
+			);
+			productName = QuickCalTests;
+			productReference = 4AB4D95A2DBC9BB2005235AA /* QuickCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AB4D9632DBC9BB2005235AA /* QuickCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB4D9742DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCalUITests" */;
+			buildPhases = (
+				4AB4D9602DBC9BB2005235AA /* Sources */,
+				4AB4D9612DBC9BB2005235AA /* Frameworks */,
+				4AB4D9622DBC9BB2005235AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB4D9662DBC9BB2005235AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AB4D9672DBC9BB2005235AA /* QuickCalUITests */,
+			);
+			name = QuickCalUITests;
+			packageProductDependencies = (
+			);
+			productName = QuickCalUITests;
+			productReference = 4AB4D9642DBC9BB2005235AA /* QuickCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB4D9412DBC9BB1005235AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4AB4D9482DBC9BB1005235AA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4AB4D9592DBC9BB2005235AA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4AB4D9482DBC9BB1005235AA;
+					};
+					4AB4D9632DBC9BB2005235AA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4AB4D9482DBC9BB1005235AA;
+					};
+				};
+			};
+			buildConfigurationList = 4AB4D9442DBC9BB1005235AA /* Build configuration list for PBXProject "QuickCal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB4D9402DBC9BB1005235AA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4AB4D94A2DBC9BB1005235AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB4D9482DBC9BB1005235AA /* QuickCal */,
+				4AB4D9592DBC9BB2005235AA /* QuickCalTests */,
+				4AB4D9632DBC9BB2005235AA /* QuickCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB4D9472DBC9BB1005235AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CF1AD62DD5B7A400FB7178 /* app.py in Resources */,
+				C7CF1AD72DD5B7A400FB7178 /* .python-version in Resources */,
+				C7CF1AD82DD5B7A400FB7178 /* .env in Resources */,
+				C7CF1AD92DD5B7A400FB7178 /* requirements.txt in Resources */,
+				C7CF1ADA2DD5B7A400FB7178 /* calquick-firebase-adminsdk-fbsvc-bd9eb73648.json in Resources */,
+				C7CF1ADC2DD5B7E200FB7178 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9582DBC9BB2005235AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9622DBC9BB2005235AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB4D9452DBC9BB1005235AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9562DBC9BB2005235AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4D9602DBC9BB2005235AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB4D95C2DBC9BB2005235AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB4D9482DBC9BB1005235AA /* QuickCal */;
+			targetProxy = 4AB4D95B2DBC9BB2005235AA /* PBXContainerItemProxy */;
+		};
+		4AB4D9662DBC9BB2005235AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB4D9482DBC9BB1005235AA /* QuickCal */;
+			targetProxy = 4AB4D9652DBC9BB2005235AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AB4D96C2DBC9BB2005235AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB4D96D2DBC9BB2005235AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4AB4D96F2DBC9BB2005235AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickCal/QuickCal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickCal/Preview Content\"";
+				DEVELOPMENT_TEAM = YC294SQ387;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AB4D9702DBC9BB2005235AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickCal/QuickCal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickCal/Preview Content\"";
+				DEVELOPMENT_TEAM = YC294SQ387;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4AB4D9722DBC9BB2005235AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J8DJ7WR6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickCal";
+			};
+			name = Debug;
+		};
+		4AB4D9732DBC9BB2005235AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J8DJ7WR6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickCal";
+			};
+			name = Release;
+		};
+		4AB4D9752DBC9BB2005235AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J8DJ7WR6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickCal;
+			};
+			name = Debug;
+		};
+		4AB4D9762DBC9BB2005235AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J8DJ7WR6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.QuickCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB4D9442DBC9BB1005235AA /* Build configuration list for PBXProject "QuickCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4D96C2DBC9BB2005235AA /* Debug */,
+				4AB4D96D2DBC9BB2005235AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB4D96E2DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4D96F2DBC9BB2005235AA /* Debug */,
+				4AB4D9702DBC9BB2005235AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB4D9712DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4D9722DBC9BB2005235AA /* Debug */,
+				4AB4D9732DBC9BB2005235AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB4D9742DBC9BB2005235AA /* Build configuration list for PBXNativeTarget "QuickCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4D9752DBC9BB2005235AA /* Debug */,
+				4AB4D9762DBC9BB2005235AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A2195042DCC502000FED4CC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4A2195062DCC66E900FED4CC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4AB4D9782DBC9D0D005235AA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4AB4D97A2DBC9D0D005235AA /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB4D9772DBC9D0D005235AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4AB4D9412DBC9BB1005235AA /* Project object */;
+}
